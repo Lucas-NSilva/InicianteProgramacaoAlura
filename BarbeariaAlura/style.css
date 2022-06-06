@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: #088C19;	
+	border-color: #088C19;
 }
 
 .produtos li:hover h2 {
@@ -99,8 +99,9 @@ form {
 	margin: 40px 0;
 }
 
-form label, form legend {
-	display:block;
+form label,
+form legend {
+	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -111,6 +112,26 @@ form label, form legend {
 	padding: 10px 25px;
 	width: 50%;
 }
-.checkbox{
+
+.checkbox {
 	margin: 30px 0;
+}
+
+.enviar {
+	width: 30%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	transition: 4s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+	
 }

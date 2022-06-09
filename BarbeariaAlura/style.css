@@ -94,7 +94,7 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {}
+/* main {} */
 
 form {
 	margin: 40px 0;
@@ -172,6 +172,8 @@ th {
 	font-size: 2em;
 	margin: 1em 0 1em;
 	clear: left;
+	text-shadow: 1px 1px #000000;
+
 }
 
 .principal p {
@@ -239,6 +241,14 @@ th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	box-shadow: 10px 10px 30px 20px #000000;
+}
+
+.imagem-beneficios:hover {
+	width: 60%;
+	opacity: 0.4;
+	transition: 400ms;
 }
 
 .video {
